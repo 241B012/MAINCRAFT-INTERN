@@ -1,0 +1,118 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 881 >>
+stream
+q
+0 g 1 w
+0.07 0.17 0.28 rg 0 545 842 50 re f
+BT /F2 15 Tf 40 563 Td (Artificial Intelligence & Machine Learning - Task 3) Tj ET
+BT /F2 29 Tf 42 500 Td (Validation Prevents False Confidence) Tj ET
+BT /F1 15 Tf 42 462 Td (A single high training score is not enough to trust a model.) Tj ET
+BT /F1 17 Tf 60 410 Td (- Split the data into train and test sets before modeling.) Tj ET
+BT /F1 17 Tf 60 376 Td (- Use cross-validation to estimate performance across several folds.) Tj ET
+BT /F1 17 Tf 60 342 Td (- Track both train and validation/test error to detect overfitting.) Tj ET
+BT /F1 17 Tf 60 308 Td (- Evaluate with RMSE and R2 so error size and explained variance are both visible.) Tj ET
+0.92 0.96 1.00 rg 570 130 205 215 re f
+0.24 0.28 0.32 RG 570 130 205 215 re S
+BT /F2 18 Tf 602 290 Td (Core idea) Tj 0 -30 Td (Good models generalize) Tj 0 -30 Td (to unseen data.) Tj ET
+
+Q
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1087 >>
+stream
+q
+0 g 1 w
+0.07 0.17 0.28 rg 0 545 842 50 re f
+BT /F2 15 Tf 40 563 Td (Artificial Intelligence & Machine Learning - Task 3) Tj ET
+BT /F2 29 Tf 42 500 Td (Decision Trees Make Overfitting Easy to See) Tj ET
+BT /F1 15 Tf 42 462 Td (Tree depth and split rules control the bias-variance tradeoff.) Tj ET
+BT /F1 17 Tf 60 410 Td (- Very shallow trees underfit because they cannot capture enough structure.) Tj ET
+BT /F1 17 Tf 60 376 Td (- Unconstrained trees often memorize training data and fail on new rows.) Tj ET
+BT /F1 17 Tf 60 342 Td (- max_depth, min_samples_split, and min_samples_leaf reduce model complexity.) Tj ET
+BT /F1 17 Tf 60 308 Td (- Validation curves show where validation RMSE stops improving.) Tj ET
+BT /F2 16 Tf 120 165 Td (Underfit) Tj 0 -20 Td (Balanced) Tj 0 -20 Td (Overfit) Tj ET
+0.86 0.91 0.98 rg 110 205 90 70 re f
+0.24 0.28 0.32 RG 110 205 90 70 re S
+0.86 0.96 0.90 rg 360 180 120 95 re f
+0.24 0.28 0.32 RG 360 180 120 95 re S
+1.00 0.91 0.86 rg 625 140 110 135 re f
+0.24 0.28 0.32 RG 625 140 110 135 re S
+BT /F1 17 Tf 330 105 Td (Tree complexity increases) Tj ET
+
+Q
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 1353 >>
+stream
+q
+0 g 1 w
+0.07 0.17 0.28 rg 0 545 842 50 re f
+BT /F2 15 Tf 40 563 Td (Artificial Intelligence & Machine Learning - Task 3) Tj ET
+BT /F2 29 Tf 42 500 Td (GridSearchCV Selects Tuned Settings) Tj ET
+BT /F1 15 Tf 42 462 Td (The final model is chosen using cross-validated validation performance, then checked once on the test set.) Tj ET
+BT /F1 17 Tf 60 410 Td (- Define a parameter grid for max_depth, min_samples_split, and min_samples_leaf.) Tj ET
+BT /F1 17 Tf 60 376 Td (- Fit GridSearchCV with 5-fold cross-validation and RMSE scoring.) Tj ET
+BT /F1 17 Tf 60 342 Td (- Compare baseline, overfit tree, and tuned tree using test RMSE and R2.) Tj ET
+BT /F1 17 Tf 60 308 Td (- Select the model that generalizes best, not the one with the lowest training error.) Tj ET
+0.94 0.96 0.98 rg 50 150 110 70 re f
+0.24 0.28 0.32 RG 50 150 110 70 re S
+BT /F2 15 Tf 70 190 Td (Data) Tj ET
+0.18 0.50 0.82 RG 170 185 m 235 185 l S
+0.94 0.96 0.98 rg 255 150 110 70 re f
+0.24 0.28 0.32 RG 255 150 110 70 re S
+BT /F2 15 Tf 275 190 Td (CV folds) Tj ET
+0.18 0.50 0.82 RG 375 185 m 440 185 l S
+0.94 0.96 0.98 rg 460 150 110 70 re f
+0.24 0.28 0.32 RG 460 150 110 70 re S
+BT /F2 15 Tf 480 190 Td (Grid search) Tj ET
+0.18 0.50 0.82 RG 580 185 m 645 185 l S
+0.94 0.96 0.98 rg 665 150 110 70 re f
+0.24 0.28 0.32 RG 665 150 110 70 re S
+BT /F2 15 Tf 685 190 Td (Final test) Tj ET
+
+Q
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000000279 00000 n 
+0000001211 00000 n 
+0000001347 00000 n 
+0000002486 00000 n 
+0000002622 00000 n 
+0000004027 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+4164
+%%EOF
